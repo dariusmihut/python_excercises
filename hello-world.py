@@ -1,8 +1,8 @@
 coded_message = 'ghfrglqj wklv phvvdjh grhv qhhg d olwwoh sdwlhqfh dqg d olwwoh elw ri lpdjlqdwlrq, l glg qrw xvh fdslwdo ohwwhuv lq rughu wr dyrlg lqfuhdvlqj wkh frpsohalwb'
-another_message = 'this is ANOTHER MESSAGE, PLEASE__CODE, is coded, let\'say XYLOPHONE xylophone, 200$'
+another_message = "\\ this is ANOTHER MESSAGE, PLEASE__CODE, is  coded, \"let's\" say XYLOPHONE xylophone, 200$"
 
 
-alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFHIJKLMNOPQRSTUVWXYZ0123456789 ,\'_$'
+alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFHIJKLMNOPQRSTUVWXYZ0123456789 ,\'_$"\\'
 
 
 def messageCoding(message, shift_position, coding=1):
