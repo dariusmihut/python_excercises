@@ -2,5 +2,6 @@
 
 ### #1 decode file
 
-a -> d
+a -3> d
+
 strings/to_decode.txt
