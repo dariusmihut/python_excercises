@@ -1,0 +1,8 @@
+{
+  "name": "John Doe",
+  "status": "employee",
+  "address": {
+    "street": "main street",
+    "number": "12 A"
+  }
+}
