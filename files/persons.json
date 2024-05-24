@@ -3,6 +3,14 @@
   "status": "employee",
   "address": {
     "street": "main street",
-    "number": "12 A"
+    "number": "12 A",
+    "block": {
+      "no": 123,
+      "neighbour": {
+        "address": {
+          "name": "Calea Aradului"
+        }
+      }
+    }
   }
 }

@@ -21,7 +21,17 @@ def printJson(file_path, key):
         keys = key.split(',')
 
         for given_key in keys:
-            value = json_data.get(given_key)
+            property_structure = given_key.split('.')
+
+            index = 0
+            temp_value = json_data
+            for property in property_structure:
+                temp_value = temp_value.get(property)
+                if index + 1 == len(property_structure):
+                    value = temp_value
+
+                index = index+1
+
             if value:
                 print("{0}: {1}".format(given_key, value))
             else:
