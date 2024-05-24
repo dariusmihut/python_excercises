@@ -1,16 +1,11 @@
 {
-  "name": "John Doe",
-  "status": "employee",
-  "address": {
-    "street": "main street",
-    "number": "12 A",
-    "block": {
-      "no": 123,
-      "neighbour": {
-        "address": {
-          "name": "Calea Aradului"
-        }
-      }
+  "list_type": "employees",
+  "data": [
+    {
+      "id": 0,
+      "employee_name": "John Doe",
+      "employee_salary": 123,
+      "employee_age": 30
     }
-  }
+  ]
 }
