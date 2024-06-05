@@ -32,7 +32,7 @@ def printJson(file_path, key):
                     if index + 1 == len(property_structure):
                         value = temp_value
 
-                    index = index+1
+                    index = index + 1
 
                 if value:
                     print("{0}: {1}".format(given_key, value))
@@ -40,9 +40,13 @@ def printJson(file_path, key):
                     print('The key "{}" could not been found'.format(given_key))
 
 
-if __name__ == "__main__":
+def main():
     arguments = sys.argv[1:]
     if len(arguments) != 2:
         print("Please provide one json file path and one key to print")
     else:
         printJson(arguments[0], arguments[1])
+
+
+if __name__ == "__main__":
+    main()
